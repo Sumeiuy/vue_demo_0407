@@ -45,6 +45,7 @@ export default {
   width: 100%;
   height: 100%;
   background: ghostwhite;
+  padding: 10px 0;
 }
 .container li {
   width: 300px;

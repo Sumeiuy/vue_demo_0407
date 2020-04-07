@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
+    <h2>{{$store.state.name}}</h2>
     <router-view/>
   </div>
 </template>
@@ -19,6 +19,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+#app h2 {
+  margin: 10px 0;
 }
 .left {
   display: block;
